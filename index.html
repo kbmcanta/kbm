@@ -1,885 +1,216 @@
-<!-- ============================================ -->
-<!--                  Collection                  -->
-<!-- ============================================ -->
-
-<!--
-    To add a 4th or 5th collection or more, copy and paste the cs-button and change it's data-filter to the next number, in this case it's 4. Do the same to the cs-listing and its data-category number. And that's it!
--->
-
-<section id="collection-1602">
-    <div class="cs-container">
-        <div class="cs-content">
-            <h2 class="cs-title">New Collection</h2>
-            <div class="cs-button-group">
-                <button class="cs-button" data-filter="one">
-                    New Arrival
-                </button>
-                <button class="cs-button" data-filter="two">
-                    Top Rating
-                </button>
-                <button class="cs-button" data-filter="three">
-                    Best Seller
-                </button>
+<div class="bg-indigo-50">
+    <header>
+        <nav class="bg-indigo-50 border-gray-200 px-4 lg:px-6 py-2.5">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="#" class="flex items-center"><span class="text-indigo-600 self-center text-xl font-semibold whitespace-nowrap">Bag Bliss</span></a>
+                <div class="flex items-center lg:order-2">
+                    <a href="#" class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2">Log in</a><a href="#" class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2">Shop Now</a
+                    ><button type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg><svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li><a href="#" class="block py-2 pr-4 pl-3 hover:text-blue-800 text-black rounded lg:bg-transparent lg:p-0" aria-current="page">Shop</a></li>
+                        <li><a href="#" class="block py-2 pr-4 pl-3 hover:text-blue-800 text-black rounded lg:bg-transparent lg:p-0" aria-current="page">Collections</a></li>
+                        <li><a href="#" class="block py-2 pr-4 pl-3 hover:text-blue-800 text-black rounded lg:bg-transparent lg:p-0" aria-current="page">About Us</a></li>
+                        <li><a href="#" class="block py-2 pr-4 pl-3 hover:text-blue-800 text-black rounded lg:bg-transparent lg:p-0" aria-current="page">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <!--Listing 1-->
-        <div class="cs-listing" data-category="one">
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Blue Chunky Beanie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img class="cs-basket"
-                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Oversized Alpaca Crew</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Diesel V2 Hoodie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Blue Chunky Beanie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Round neck T-shirt</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Crossback Halter Dress</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <!--Listing 2-->
-        <div class="cs-listing cs-hidden" data-category="two">
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Blue Chunky Beanie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img class="cs-basket"
-                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Oversized Alpaca Crew</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Diesel V2 Hoodie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Blue Chunky Beanie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Round neck T-shirt</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Crossback Halter Dress</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <!--Listing 3-->
-        <div class="cs-listing cs-hidden" data-category="three">
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-beanie.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Blue Chunky Beanie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img class="cs-basket"
-                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-alpaca.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Oversized Alpaca Crew</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-hoodie.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Diesel V2 Hoodie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-winter.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Blue Chunky Beanie</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-round-neck.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Round neck T-shirt</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="cs-item">
-                <a href="" class="cs-link">
-                    <div class="cs-picture-group">
-                        <picture class="cs-picture">
-                            <source media="(max-width: 600px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png">
-                            <source media="(min-width: 601px)"
-                                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png">
-                            <img loading="lazy" decoding="async"
-                                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-halter.png"
-                                    alt="gallery" width="305" height="400">
-                        </picture>
-                        <span class="cs-offer">-20%</span>
-                    </div>
-                    <div class="cs-details">
-                        <span class="cs-category">Run, Dress</span>
-                        <h3 class="cs-name">Crossback Halter Dress</h3>
-                        <div class="cs-actions">
-                            <div class="cs-flex">
-                                <span class="cs-price">$7.00</span>
-                                <span class="cs-was-price">$12.00</span>
-                                <div class="cs-stars">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                    <img class="cs-star"
-                                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/review-star.svg"
-                                            alt="star" height="24" width="24" loading="lazy" decoding="async">
-                                </div>
-                            </div>
-                            <button class="cs-buy">
-                                <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
-                                        alt="buy" height="24" width="24" loading="lazy" decoding="async">
-                            </button>
-                        </div>
-                    </div>
-                </a>
+        </nav>
+    </header>
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true"></div>
+        <div class="mx-auto max-w-2xl py-10 sm:py-48 lg:py-10">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Discover the Perfect Bag for You</h1>
+                <p class="mt-6 text-lg leading-8 text-gray-600">Explore our wide range of stylish and functional bags for every occasion.</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Shop Now</a><a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn More<span aria-hidden="true">→</span></a>
+                </div>
             </div>
         </div>
     </div>
-</section>
-                                
+</div>
+<div class="bg-indigo-600 py-10 sm:py-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:text-center">
+            <h2 class="text-base font-semibold leading-7 text-indigo-200">Functional Design</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Features that enhance your bag experience</p>
+            <p class="mt-6 text-lg leading-8 text-indigo-200">Explore the key features that make our bags stand out from the rest.</p>
+        </div>
+        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+                <div class="flex flex-col">
+                    <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">Durable Material</dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-indigo-200">
+                        <p class="flex-auto">Made from high-quality, long-lasting materials to ensure durability</p>
+                        <p class="mt-6">
+                            <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+                        </p>
+                    </dd>
+                </div>
+                <div class="flex flex-col">
+                    <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">Multiple Compartments</dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-indigo-200">
+                        <p class="flex-auto">Designed with multiple compartments for easy organization and storage</p>
+                        <p class="mt-6">
+                            <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+                        </p>
+                    </dd>
+                </div>
+                <div class="flex flex-col">
+                    <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">Adjustable Straps</dt>
+                    <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-indigo-200">
+                        <p class="flex-auto">Equipped with adjustable straps for a comfortable and customizable fit</p>
+                        <p class="mt-6">
+                            <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+                        </p>
+                    </dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+</div>
+<div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto max-w-4xl sm:text-center">
+            <h2 class="text-base font-semibold leading-7 text-indigo-600">Choose Your Plan</h2>
+            <p class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Pricing Plans</p>
+        </div>
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600 sm:text-center">Select the plan that best fits your needs</p>
+        <div class="mt-20 flow-root">
+            <div class="isolate -mt-16 grid max-w-sm grid-cols-1 gap-y-16 divide-y divide-gray-100 sm:mx-auto lg:-mx-8 lg:mt-0 lg:max-w-none lg:grid-cols-3 lg:divide-x lg:divide-y-0 xl:-mx-4">
+                <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+                    <h3 class="text-base font-semibold leading-7 text-gray-900">Starter Pack</h3>
+                    <p class="mt-6 flex items-baseline gap-x-1">
+                        <span class="text-5xl font-bold tracking-tight text-gray-900">$19.99</span><span class="text-sm font-semibold leading-6 text-gray-600">/<!-- -->month</span>
+                    </p>
+                    <a href="#" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                    <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">Ideal for occasional users</p>
+                    <ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>1 Bag Included
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Basic Design Options
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Limited Support
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Monthly Updates
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>No Customization
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+                    <h3 class="text-base font-semibold leading-7 text-gray-900">Professional Pack</h3>
+                    <p class="mt-6 flex items-baseline gap-x-1">
+                        <span class="text-5xl font-bold tracking-tight text-gray-900">$39.99</span><span class="text-sm font-semibold leading-6 text-gray-600">/<!-- -->month</span>
+                    </p>
+                    <a href="#" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                    <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">Perfect for regular users</p>
+                    <ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>3 Bags Included
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Advanced Design Options
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Priority Support
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Weekly Updates
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Limited Customization
+                        </li>
+                    </ul>
+                </div>
+                <div class="pt-16 lg:px-8 lg:pt-0 xl:px-14">
+                    <h3 class="text-base font-semibold leading-7 text-gray-900">Ultimate Pack</h3>
+                    <p class="mt-6 flex items-baseline gap-x-1">
+                        <span class="text-5xl font-bold tracking-tight text-gray-900">$59.99</span><span class="text-sm font-semibold leading-6 text-gray-600">/<!-- -->month</span>
+                    </p>
+                    <a href="#" class="mt-10 block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                    <p class="mt-10 text-sm font-semibold leading-6 text-gray-900">For power users and businesses</p>
+                    <ul role="list" class="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>5 Bags Included
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Full Design Options
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>24/7 Support
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Daily Updates
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Full Customization
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-indigo-600">
+    <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl"><br />Find the Perfect Bag for Every Occasion</h2>
+            <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-indigo-200">Explore our collection of high-quality bags that combine style and functionality.</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-sm hover:bg-indigo-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Shop Now</a
+                ><a href="#" class="text-sm font-semibold leading-6 text-white"
+                    >Discover More Styles<!-- -->
+                    <span aria-hidden="true">→</span></a
+                >
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-white">
+    <div class="mx-auto max-w-7xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+            <div class="lg:col-span-5">
+                <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
+                <p class="mt-4 text-base leading-7 text-gray-600">
+                    Can’t find the answer you’re looking for? Reach out to our<!-- -->
+                    <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">customer support</a>
+                    <!-- -->team.
+                </p>
+            </div>
+            <div class="mt-10 lg:col-span-7 lg:mt-0">
+                <dl class="space-y-10">
+                    <div>
+                        <dt class="text-base font-semibold leading-7 text-gray-900">What materials are the bags made of?</dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Our bags are made of high-quality leather and durable fabrics.</dd>
+                    </div>
+                    <div>
+                        <dt class="text-base font-semibold leading-7 text-gray-900">Do you offer customization options for the bags?</dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Yes, we offer customization options such as monogramming and color choices.</dd>
+                    </div>
+                    <div>
+                        <dt class="text-base font-semibold leading-7 text-gray-900">What is your return policy?</dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">We offer a 30-day return policy for unused items in their original packaging.</dd>
+                    </div>
+                    <div>
+                        <dt class="text-base font-semibold leading-7 text-gray-900">How do I care for my bag?</dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">We recommend spot cleaning with a damp cloth for most bags. Leather bags may require special care products.</dd>
+                    </div>
+                    <div>
+                        <dt class="text-base font-semibold leading-7 text-gray-900">Do you offer international shipping?</dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Yes, we offer international shipping for an additional fee.</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
